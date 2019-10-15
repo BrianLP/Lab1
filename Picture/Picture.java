@@ -58,21 +58,21 @@ public class Picture
         walkway.changeSize(250,40);
         walkway.moveHorizontal(130);
         walkway.moveVertical(115);
-        walkway.changeColor("yellow")
+        walkway.changeColor("yellow");
         walkway.makeVisible();
       
         wall = new Square();
         wall.moveHorizontal(60);
         wall.moveVertical(130);
         wall.changeSize(75);
-        wall.changeColor("red")
+        wall.changeColor("red");
         wall.makeVisible();
         
         wall2 = new Square();
         wall2.moveHorizontal(135);
         wall2.moveVertical(130);
         wall2.changeSize(75);
-        wall2.changeColor("red")
+        wall2.changeColor("red");
         wall2.makeVisible();
         
         roof = new Square();
@@ -138,14 +138,14 @@ public class Picture
         roofedge.changeSize(30,40);
         roofedge.moveHorizontal(65);
         roofedge.moveVertical(115);
-        roofedge.changeColor("black")
+        roofedge.changeColor("black");
         roof.makeVisible();
        
         roofedge2 = new Triangle();
         roofedge2.changeSize(30,40);
         roofedge2.moveHorizontal(205);
         roofedge2.moveVertical(115);
-        roofedge2.changeColor("black")
+        roofedge2.changeColor("black");
         roofedge2.makeVisible();
        
 
