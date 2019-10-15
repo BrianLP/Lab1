@@ -22,6 +22,9 @@ public class Picture
     private Square roof4;
     private Square roof5;
     private Square window;
+    private Square window2;
+    private Square window3;
+    private Square window4;
     private Triangle roofedge;
     private Triangle roofedge2;
     private Circle sun;
@@ -46,10 +49,10 @@ public class Picture
         sky.changeSize(300);
         sky.changeColor("blue");
         sky.makeVisible();
-        
+         
         floor = new Square();
         floor.moveHorizontal(0);
-        floor.moveVertical(-190);
+        floor.moveVertical(190);
         floor.changeSize(300);
         floor.changeColor("green");
         floor.makeVisible();
