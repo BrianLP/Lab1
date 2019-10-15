@@ -47,16 +47,32 @@ public class Picture
         sky.changeColor("blue");
         sky.makeVisible();
         
+        floor = new Square();
+        floor.moveHorizontal(0);
+        floor.moveVertical(-190);
+        floor.changeSize(300);
+        floor.changeColor("green");
+        floor.makeVisible();
+        
+        walkway = new Triangle();
+        walkway.changeSize(250,40);
+        walkway.moveHorizontal(130);
+        walkway.moveVertical(115);
+        walkway.changeColor("yellow")
+        walkway.makeVisible();
+      
         wall = new Square();
         wall.moveHorizontal(60);
         wall.moveVertical(130);
         wall.changeSize(75);
+        wall.changeColor("red")
         wall.makeVisible();
         
         wall2 = new Square();
         wall2.moveHorizontal(135);
         wall2.moveVertical(130);
         wall2.changeSize(75);
+        wall2.changeColor("red")
         wall2.makeVisible();
         
         roof = new Square();
@@ -96,27 +112,27 @@ public class Picture
         
         window = new Square();
         window.changeColor("black");
-        window.moveHorizontal(20);
-        window.moveVertical(100);
+        window.moveHorizontal(80);
+        window.moveVertical(150);
         window.makeVisible();
         
-        window = new Square();
-        window.changeColor("black");
-        window.moveHorizontal(20);
-        window.moveVertical(100);
-        window.makeVisible();
+        window2 = new Square();
+        window2.changeColor("black");
+        window2.moveHorizontal(105);
+        window2.moveVertical(150);
+        window2.makeVisible();
         
-        window = new Square();
-        window.changeColor("black");
-        window.moveHorizontal(20);
-        window.moveVertical(100);
-        window.makeVisible();
+        window3 = new Square();
+        window3.changeColor("black");
+        window3.moveHorizontal(140);
+        window3.moveVertical(150);
+        window3.makeVisible();
         
-        window = new Square();
-        window.changeColor("black");
-        window.moveHorizontal(20);
-        window.moveVertical(100);
-        window.makeVisible();
+        window4 = new Square();
+        window4.changeColor("black");
+        window4.moveHorizontal(165);
+        window4.moveVertical(150);
+        window4.makeVisible();
 
         roofedge = new Triangle();
         roofedge.changeSize(30,40);
