@@ -40,7 +40,12 @@ public class Picture
      */
     public void draw()
     {
-        
+        sky = new Square();
+        sky.moveHorizontal(0);
+        sky.moveVertical(-110);
+        sky.changeSize(300);
+        sky.changeColor("blue");
+        sky.makeVisible();
         
         wall = new Square();
         wall.moveHorizontal(60);
